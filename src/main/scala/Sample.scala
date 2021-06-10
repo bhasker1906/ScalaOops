@@ -10,28 +10,28 @@ object Sample {
     //Person obj=new Person()
     val obj=new Person("RAM","ERROL")
     //obj.printFullName
-    var li1=Seq("1","2");
-    var li2=Seq("A","B");
+    var li1=Seq("1","2")
+    var li2=Seq("A","B")
+
     var res=li1.zip(li2)
     var ff=res.map(f=>{
       f._1+f._2
           })
     println(ff)
-   /*for(i <- 0 until 6) {
+   for(i <- 0 until 6) {
      println(i)
    }
-    var i=0;
+    var i=0
     while(i>5){
       println(i)
-      i+=1;
-    }*/
+      i+=1
+    }
 
   }
 
-  def addtion(a:Int,b:Int):Int={
-    return a+b;
+  def addtion(a:Int,b:Int):Int= {
+     a + b
   }
-
 
 
 
